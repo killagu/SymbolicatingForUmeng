@@ -1,0 +1,29 @@
+Application received signal SIGSEGV
+(null)
+((
+	0   CoreFoundation                      0x00000001811f2e50 <redacted> + 148
+	1   libobjc.A.dylib                     0x0000000180857f80 objc_exception_throw + 56
+	2   CoreFoundation                      0x00000001811f2d80 <redacted> + 0
+	3   ???                           0x000000010037b360 ??? + 3404640
+	4   libsystem_platform.dylib            0x0000000180e5193c _sigtramp + 52
+	5   ???                           0x0000000100104ae0 ??? + 821984
+	6   ???                           0x0000000100106b24 ??? + 830244
+	7   ???                           0x0000000100108fc0 ??? + 839616
+	8   Alamofire                           0x0000000100694e7c _TWau0_R_s9ErrorTyperGV9Alamofire18ResponseSerializerxq__S0_22ResponseSerializerTypeS0_ + 1888
+	9   libdispatch.dylib                   0x0000000180c3d4bc <redacted> + 24
+	10  libdispatch.dylib                   0x0000000180c3d47c <redacted> + 16
+	11  libdispatch.dylib                   0x0000000180c42b84 _dispatch_main_queue_callback_4CF + 1844
+	12  CoreFoundation                      0x00000001811a8dd8 <redacted> + 12
+	13  CoreFoundation                      0x00000001811a6c40 <redacted> + 1628
+	14  CoreFoundation                      0x00000001810d0d10 CFRunLoopRunSpecific + 384
+	15  GraphicsServices                    0x00000001829b8088 GSEventRunModal + 180
+	16  UIKit                               0x00000001863a5f70 UIApplicationMain + 204
+	17  ???                           0x00000001000a75d4 ??? + 439764
+	18  libdyld.dylib                       0x0000000180c6e8b8 <redacted> + 4
+)
+
+dSYM UUID: 9867AE23-0311-36A6-ACDA-C6F78B45293B
+CPU Type: arm64
+Slide Address: 0x0000000100000000
+Binary Image: ???
+Base Address: 0x000000010003c000
