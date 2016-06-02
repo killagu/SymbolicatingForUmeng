@@ -1,0 +1,7 @@
+{
+  "name": "SymbolicatingForUmeng",
+  "version": "0.0.1",
+  "dependencies": {
+    "debug": "~2.1.1"
+  }
+}
